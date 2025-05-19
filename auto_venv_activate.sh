@@ -20,7 +20,7 @@ add_autoactivate_script() {
 
 # Auto activate virtual environment if in a project directory with a venv folder
 function auto_activate_venv() {
-    if [ -f "venv/bin/activate" ]; then
+    if [ -z "$VIRTUAL_ENV" && -f "venv/bin/activate" ]; then
         source venv/bin/activate
     fi
 }
@@ -34,7 +34,7 @@ EOF
 
 # Auto activate virtual environment if in a project directory with a venv folder
 function auto_activate_venv() {
-    if [ -f "venv/bin/activate" ]; then
+    if [ -z "$VIRTUAL_ENV" && -f "venv/bin/activate" ]; then
         source venv/bin/activate
     fi
 }

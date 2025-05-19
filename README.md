@@ -11,7 +11,7 @@ chmod +x auto_venv_activate.sh
 ```sh
 nvim ~/.bashrc
 ```
-## after the file is open insert following at the bottom of the file
+## After the file is open insert following at the bottom of the file
 
 ```bash
 function auto_activate_venv() {

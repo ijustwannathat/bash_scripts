@@ -35,7 +35,7 @@ def change_bg(file):
     subprocess.run(command)
 
 #TODO: Make day_bg and night_bg env_variables
-day_bg = ''
+day_bg = '2025-07-02-20-37-46-ethan-dow-l7Wb6FXHIOQ-unsplash.jpg'
 night_bg = ''
 check_interval = 1
 
@@ -44,9 +44,9 @@ check_interval = 1
 while True:
     sleep((60*60)*check_interval)
     if hours in day_range:
-        change_bg('2025-07-02-20-37-46-ethan-dow-l7Wb6FXHIOQ-unsplash.jpg')
+        change_bg(day_bg)
     elif hours in night_range:
-        change_bg('pexels-rpnickson-2885320.jpg')
+        change_bg(night_bg)
     
 
 

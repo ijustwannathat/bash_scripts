@@ -13,8 +13,8 @@ from time import sleep
 user = getpass()
 path = f'/home/{user}/.local/share/backgrounds/'
 
-print('default background folder')
-print(*os.listdir(path), sep='\n')
+#print('default background folder')
+#print(*os.listdir(path), sep='\n')
 
 
 hours = int(datetime.datetime.now().time().strftime('%H'))

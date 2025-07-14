@@ -1,5 +1,5 @@
 # DOES NOT WORK FOR SOME WAYLAND POWERED GNOME 
-# might work for other systems like fedora, suggest you test that with with X11 running instead of wayland
+# might work for other systems like not fedora, suggest you test that with with X11 running instead of wayland
 # there is a workaround for running this script, but it requires writing extensive code which safety is unclear
 # it would be cool if you were able to test that :D
 

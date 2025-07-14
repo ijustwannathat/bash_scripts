@@ -35,7 +35,7 @@ def change_bg(file):
     subprocess.run(command)
 
 #TODO: Make day_bg and night_bg env_variables
-day_bg = '2025-07-02-20-37-46-ethan-dow-l7Wb6FXHIOQ-unsplash.jpg'
+day_bg = ''
 night_bg = ''
 check_interval = 1
 
